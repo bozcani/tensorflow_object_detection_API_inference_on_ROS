@@ -31,8 +31,8 @@ Visualization Manager:
   Class: ""
   Displays:
     - Class: rviz/Image
-      Enabled: false
-      Image Topic: /detector/image_raw
+      Enabled: true
+      Image Topic: /image_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -41,10 +41,10 @@ Visualization Manager:
       Queue Size: 2
       Transport Hint: raw
       Unreliable: false
-      Value: false
+      Value: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /detector/image_raw
+      Image Topic: /debug_image
       Max Value: 1
       Median window: 5
       Min Value: 0
